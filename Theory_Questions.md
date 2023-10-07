@@ -147,7 +147,33 @@ Questions
 71. Illsutrate the effect of using momentum with gradient descnet on training rate.
 72. Implement gradient descent with momentum and also mention the hyper-parameters involve in it.
 73. Explain the intuition behind the less number of oscillations in case of gradient descent with momentum.
-74.  
+74. What is RMSProp algorithm and how it works?
+75. Explain the maths behind RMSProp algorithm?
+76. What are the hyper-parameters involve in RMSProp?
+77. Define Adam optimization algorithms.
+78. What does Adam stands for?
+79. How does Adam optimization combine momentum and RMSProp together?
+80. What are the hyper-parameters involve in Adam algorithm? Comment on their common values.
+81. Write down the equations involve in Adam optimization algorithm.
+82. What is learning rate decay and why it is used in speeding up training algorithm?
+83. Explain the intuition behind decay in learning rate.
+84. Write equations and hyper-parameters involve in learning rate decay?
+85. What are saddle points of a function?
+86. How can we overcome the local optima problems?
+87. How does plateus of a cost functions create problem in training?
+88. What are different ways of tuning hyper-parameters?
+89. What is Pandas vs Caviar strategy in finding optimal sets of hyperparamters?
+90. Define batch normalization.
+91. What are benefits of using batch normalization?
+92. Write down setps and equations involve in batch norm.
+93. Should we normalize the value before the activation function, or whether you should normalize the value after applying the activation function?
+94. Why does batch norm works? Explain the intuition behind it.
+95. Does batch norm has any regularization effect?
+96. How does batch norm work during training and test time?
+97. Write down the equations used during test time.
+98. What should be the activation function in case of multi class classification?
+99. How softmax function works?
+100. Write the expression of softmax function.
 
 ## Structuring Machine Learning Projects
 
