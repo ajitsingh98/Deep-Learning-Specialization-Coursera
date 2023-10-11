@@ -150,7 +150,7 @@ Questions
 74. What is RMSProp algorithm and how it works?
 75. Explain the maths behind RMSProp algorithm?
 76. What are the hyper-parameters involve in RMSProp?
-77. Define Adam optimization algorithms.
+77. Define Adam optimization algorithm.
 78. What does Adam stands for?
 79. How does Adam optimization combine momentum and RMSProp together?
 80. What are the hyper-parameters involve in Adam algorithm? Comment on their common values.
@@ -178,5 +178,76 @@ Questions
 ## Structuring Machine Learning Projects
 
 ## Convolutional Neural Networks
+
+1. List down some example of computer vision tasks.
+2. Define convolution mathematically.
+3. Write the expression of convolutional integretion.
+4. Evaluate the below expression where `*` represents convolution operator.
+   ```plaintext
+   10  10  10  0  0  0       
+   10  10  10  0  0  0       1  0  -1
+   10  10  10  0  0  0    *  1  0  -1
+   10  10  10  0  0  0       1  0  -1
+   10  10  10  0  0  0
+   10  10  10  0  0  0
+   ```
+5. Define what do you mean by edges in an image?
+6. Ilustrate how can you use convolution to find edges in an image?
+7. You are given a filter for verticle edge detection, find out corresponding horizontal edge detector.
+   ```plaintext
+   1 0 -1
+   1 0 -1
+   1 0 -1
+   ```
+8. Write down the expression of following
+   1. Sobel filter
+   2. Scharr filter
+9. How do we can find out the appropriate parameters of edge detector filters?
+10. What will be the resultant diameter of a $n\*n$ image convolved with $f\*f$ filter?
+11. What is padding? Why do we need to use them in building deep neural networks for image tasks?
+12. Suppose you have a $n\*n$ image and $p$ is the padding amount, you are using a convolution filter of dimension $f\*f$. What will the resultant dimension?
+13. Based on amount of padding, what are different types of convolutions?
+14. Distinguise between valid and same convolutions.
+15. What is the reason behind using square and odd length of convolution filters?
+16. What is strided convolution? Explain it with an example?
+17. Suppose you have an $N \* N$ image, they convolve with an $F \* F$ filter, and if you use padding P and stride S. Comment on final output dimension.
+18. Suppose $n_c$ is number of channels in your image, what should be $n_c$ for filter?
+19. How do we operate convolution over volume? Illustrate.
+20. If you have 10 filters that are $3\*3\*3$ in one layer of a neural network, how many parameters does that layer have?
+21. What is the issue with feed forward neural netowrok while dealing with image related tasks?
+22. What are the benefits of using CNNs instead of FFNNs?
+23. Suppose for layer $l$ of a convolution layer, you have following info
+    1. $f^{[l]}$ = filter size
+    2. $p^{[l]}$ = padding
+    3. $s^{[l]}$ = stride
+    4. $n_c^{[l]}$ = number of filters
+   What will be the dimensions of following:
+     1. Each filter
+     2. Activations
+     3. Weights
+     4. Bias
+     5. Input matrix
+     6. Output matrix
+24. How many layers a typical ConvNet contains? Write their Names.
+25. What is a pooling layer? Why we need them in ConvNets?
+26. Where do we use pooling layers in ConvNets?
+27. What are the different types of pooling layers?
+28. How does the max pooling layer work?
+29. What are the intuition behind using max pooling layers?
+30. Name the parameters and hyper-parameters involve in pooling layers.
+31. Draw the architecture of following Networks.
+    1. LeNet-5
+    2. AlexNet
+    3. VGG-16
+32. How many parameters does the following networks had?
+    1. LeNet-5
+    2. AlexNet
+    3. VGG-16
+33. What are ResNets? Explain the building block behind it.
+34. How does ResNets overcome with vanishing gradient problem?
+35. Write down the equations in envole in a residual block.
+36. What are the skip conections in ResNet and how does it helps in training deep NN models?
+37. 
+
 
 ## Sequence Models
