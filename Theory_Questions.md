@@ -251,3 +251,26 @@ Questions
 
 
 ## Sequence Models
+1. Give some examples of sequence data.
+2. What are different ways of representing words in NLP?
+3. What are recurrent neural networks?
+4. What are the issues with fully connected NN while using for sequence data?
+5. Draw schematic diagram of a rnn block?
+6. For forward propagation in rnn, write the equations involve a given layer.
+7. How does backpropagation works through time in RNNs?
+8. What are different types of RNNs based on its input output architecture?
+9. WHat are some exaples of language models?
+10. What are some pros and cons of using character level language model over word based language model?
+11. What are some drawbacks of using vanilla RNNs for sequence modeling?
+12. Why does Vanishing gradient issue happens with vanilla RNNs?
+13. How can you address exploding gradient issues in RNNs?
+14. What are the remedies for vanishing gradient issues in RNNs?
+15. What are some popular RNNs design?
+16. What are GRUs? How do they overcome with vanishing gradient problem?
+17. What are different components of a GRU unit? Write down the equations for each gates?
+18. Draw a LSTM unit and anotate all of its important component.
+19. State the equations governing each gates of a LSTM cell.
+20. What are bidirectional RNNs? How do we train them?
+21. What is benefit of using bidirectional rnn over unidirectional ones?
+22. State one limitation of bidirectional rnn?
+23.  
