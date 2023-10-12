@@ -6,7 +6,7 @@ Contents
 2. [Hyperparameter tuning Regularization and Optimization](#hyperparameter-tuning-regularization-and-optimization)
 3. [Structuring Machine Learning Projects](#structuring-machine-learning-projects)
 4. [Convolutional Neural Networks](#convolutional-neural-networks)
-5. [Sequence Models](#sequence-models])
+5.  [Sequence Models](#sequence-models])
 
 
 Questions
@@ -253,24 +253,49 @@ Questions
 ## Sequence Models
 1. Give some examples of sequence data.
 2. What are different ways of representing words in NLP?
-3. What are recurrent neural networks?
-4. What are the issues with fully connected NN while using for sequence data?
-5. Draw schematic diagram of a rnn block?
-6. For forward propagation in rnn, write the equations involve a given layer.
-7. How does backpropagation works through time in RNNs?
-8. What are different types of RNNs based on its input output architecture?
-9. WHat are some exaples of language models?
-10. What are some pros and cons of using character level language model over word based language model?
-11. What are some drawbacks of using vanilla RNNs for sequence modeling?
-12. Why does Vanishing gradient issue happens with vanilla RNNs?
-13. How can you address exploding gradient issues in RNNs?
-14. What are the remedies for vanishing gradient issues in RNNs?
-15. What are some popular RNNs design?
-16. What are GRUs? How do they overcome with vanishing gradient problem?
-17. What are different components of a GRU unit? Write down the equations for each gates?
-18. Draw a LSTM unit and anotate all of its important component.
-19. State the equations governing each gates of a LSTM cell.
-20. What are bidirectional RNNs? How do we train them?
-21. What is benefit of using bidirectional rnn over unidirectional ones?
-22. State one limitation of bidirectional rnn?
-23.  
+3. What are some popular NLP tasks that can be solved by deep learning?
+4. What are recurrent neural networks?
+5. What are the issues with fully connected NN while using for sequence data?
+6. Draw schematic diagram of a rnn block?
+7. For forward propagation in rnn, write the equations involve a given layer.
+8. How does backpropagation works through time in RNNs?
+9. What are different types of RNNs based on its input output architecture?
+10. What are some exaples of language models?
+11. What are some pros and cons of using character level language model over word based language model?
+12. What are some drawbacks of using vanilla RNNs for sequence modeling?
+13. Why does Vanishing gradient issue happens with vanilla RNNs?
+14. How can you address exploding gradient issues in RNNs?
+15. What are the remedies for vanishing gradient issues in RNNs?
+16. What are some popular RNNs design?
+17. What are GRUs? How do they overcome with vanishing gradient problem?
+18. What are different components of a GRU unit? Write down the equations for each gates?
+19. Draw a LSTM unit and anotate all of its important component.
+20. State the equations governing each gates of a LSTM cell.
+21. What are bidirectional RNNs? How do we train them?
+22. What is benefit of using bidirectional rnn over unidirectional ones?
+23. State one limitation of bidirectional rnn?
+24. How does deep rnn works? Explain it with a diagram.
+25. What are word embeddings?
+26. How can visualize high dimensional word embeddings into lower dimensions?
+27. How can we use transfer learnings in NLP?
+28. What are some classical algorithms to learn word embeddings?
+29. How does word2vec algorithm works?
+30. Explain how does word2vec skip-gram model works?
+31. What is negative sampling?
+32. What is difference between skip-gram model and skip-gram model?
+33. What does GloVe algorithm? Is it better than word2vec?
+34. Name the areas where we can use word embeddings?
+35. What are the limitations of LSTMs?
+36. How do we choose best translated sentence in machine translation tasks?
+37. Why greedy serach algorithm is not recommended while choosing best translation?
+38. Explain how does beam search works? How can we use it in finding most likely sequence?
+39. How does length normalization helps beam search?
+40. List down one limitation of beam search algorithm.
+41. Name the performance metrices used in machine learning tasks.
+42. Define BLEU score.
+43. What are benefits and limitations of BLEU score?
+44. Explain the intuition behind attention model? How does it ovecome long sequence problem with LSTM based models?
+45. What are different components of an attention model?
+46. Write the equations involve in attention layer.
+47. How to process audio data for deep learning models?
+48. Suppose you have to make a trigger word detetctor, Write down the steps that you will be following sequentially.
